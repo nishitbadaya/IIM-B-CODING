@@ -1,0 +1,116 @@
+/* General Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #0077b6;
+  }
+  
+  /* Headings and Introduction */
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  h2 {
+    color: #0077b6;
+    margin-bottom: 0.75rem;
+  }
+  
+  p {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Skills List */
+  .card ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .card ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  /* Links */
+  a {
+    color: #0077b6;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .card {
+      padding: 1rem;
+      margin: 1rem 1rem;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
